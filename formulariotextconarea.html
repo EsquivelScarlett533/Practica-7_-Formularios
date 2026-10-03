@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Sección de configuración y metadatos de la página -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios en HTML</title>
+  <!-- Libreria de iconos en linea -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">
+
+</head>
+<!-- Sección con el contenido visible de la página -->
+<body>
+  <h2>Formulario con text area</h2>
+  <!-- Contenedor principal del formulario para enviar datos -->
+  <form action="" method="post">
+    <!-- Apartado para solicitar el nombre -->
+    Ingresa tu nombre:
+    <input type="text" name="nombre">
+    <br>
+    <!-- Apartado para solicitar el correo -->
+    Ingresa tu correo:
+    <input type="email" name="correo">
+    <br>
+    <!-- Apartado para escribir un mensaje o comentarios extensos -->
+    Ingresa tus comentarios:
+    <textarea name="comentarios" rows="1" cols="10"></textarea>
+    <br>
+    <!-- Apartado de acciones: enviar y limpiar el formulario -->
+    <input type="submit" value="enviar">
+    <input type="reset" value="borrar">
+  </form>
+</body>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Sección de configuración y metadatos de la página -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios en HTML</title>
+  <!-- Libreria de iconos en linea -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">
+
+</head>
+<!-- Sección con el contenido visible de la página -->
+<body>
+  <h2>Formularios con agrupamiento</h2>
+
+  <!-- Contenedor principal del formulario -->
+  <form action="" method="post">
+
+    <!-- Grupo de campos para los datos personales -->
+    <fieldset>
+      <legend>Datos personales</legend>
+      Nombre y apellido:
+      <input type="text" name="nombre_apellido"><br>
+      Documento valido:
+      <input type="file" name="documento"><br>
+      Fecha de nacimiento:
+      <input type="date" name="fecha_nacimiento">
+    </fieldset>
+
+    <!-- Grupo de campos para los datos de estudio -->
+    <fieldset>
+      <legend>Datos de estudio:</legend>
+      Nombre de la escuela:
+      <input type="text" name="escuela"><br>
+      Certificado valido:
+      <input type="file" name="certificado"><br>
+      Fecha de egreso:
+      <input type="date" name="fecha_egreso">
+    </fieldset>
+    <br>
+
+    <!-- Apartado de acciones: botones para enviar y borrar datos con iconos -->
+    <button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
+    <button type="reset">Borrar <i class="fa fa-trash"></i></button>
+
+  </form>
+</body>
